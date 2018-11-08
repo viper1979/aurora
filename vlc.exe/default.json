@@ -1,0 +1,152 @@
+﻿{
+  "$type": "Aurora.Profiles.Generic_Application.GenericApplicationSettings, Aurora",
+  "ApplicationName": "New Application Profile",
+  "shortcuts_assistant_enabled": true,
+  "ctrl_key_color": "Blue",
+  "ctrl_key_sequence": {
+    "$type": "Aurora.Settings.KeySequence, Aurora",
+    "keys": {
+      "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+      "$values": []
+    },
+    "type": 0,
+    "freeform": {
+      "$type": "Aurora.Settings.FreeFormObject, Aurora",
+      "Type": 1,
+      "X": 0.0,
+      "Y": 0.0,
+      "Width": 30.0,
+      "Height": 30.0,
+      "Angle": 0.0
+    }
+  },
+  "alt_key_color": "Yellow",
+  "alt_key_sequence": {
+    "$type": "Aurora.Settings.KeySequence, Aurora",
+    "keys": {
+      "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+      "$values": []
+    },
+    "type": 0,
+    "freeform": {
+      "$type": "Aurora.Settings.FreeFormObject, Aurora",
+      "Type": 1,
+      "X": 0.0,
+      "Y": 0.0,
+      "Width": 30.0,
+      "Height": 30.0,
+      "Angle": 0.0
+    }
+  },
+  "Layers_NightTime": {
+    "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.Layer, Aurora]], System",
+    "$values": []
+  },
+  "lighting_areas_day": {
+    "$type": "System.Collections.Generic.List`1[[Aurora.Settings.ColorZone, Aurora]], mscorlib",
+    "$values": []
+  },
+  "lighting_areas_night": {
+    "$type": "System.Collections.Generic.List`1[[Aurora.Settings.ColorZone, Aurora]], mscorlib",
+    "$values": []
+  },
+  "isEnabled": true,
+  "ScriptSettings": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Aurora.Settings.ScriptSettings, Aurora]], mscorlib"
+  },
+  "Layers": {
+    "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.Layer, Aurora]], System",
+    "$values": [
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Equalizer Layer",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.EqualizerLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.EqualizerLayerHandlerProperties, Aurora",
+            "_SecondaryColor": "152, 252, 201",
+            "_Gradient": {
+              "$type": "Aurora.EffectsEngine.EffectBrush, Aurora",
+              "type": 2,
+              "wrap": 0,
+              "color_gradients": {
+                "$type": "System.Collections.Generic.SortedDictionary`2[[System.Single, mscorlib],[System.Drawing.Color, System.Drawing]], System",
+                "0": "Red",
+                "0.14": "255, 127, 0",
+                "0.29": "Yellow",
+                "0.43": "Lime",
+                "0.57": "Blue",
+                "0.71": "Indigo",
+                "0.86": "139, 0, 255",
+                "1": "Red"
+              },
+              "start": {
+                "$type": "System.Drawing.PointF, System.Drawing",
+                "IsEmpty": true,
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "end": {
+                "$type": "System.Drawing.PointF, System.Drawing",
+                "IsEmpty": false,
+                "X": 1.0,
+                "Y": 0.0
+              },
+              "center": {
+                "$type": "System.Drawing.PointF, System.Drawing",
+                "IsEmpty": true,
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "_EQType": 0,
+            "_ViewType": 2,
+            "_MaxAmplitude": 20.0,
+            "_DimBackgroundOnSound": false,
+            "_DimColor": "169, 0, 0, 0",
+            "_Frequencies": {
+              "$type": "System.Collections.Generic.SortedSet`1[[System.Single, mscorlib]], System",
+              "$values": [
+                60.0,
+                170.0,
+                310.0,
+                600.0,
+                1000.0,
+                2000.0,
+                3000.0,
+                4000.0,
+                5000.0
+              ]
+            },
+            "_PrimaryColor": "95, 90, 234",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": []
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      }
+    ]
+  },
+  "Hidden": false
+}

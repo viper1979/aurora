@@ -1,0 +1,420 @@
+﻿{
+  "$type": "Aurora.Profiles.Generic_Application.GenericApplicationSettings, Aurora",
+  "ApplicationName": "Destiny 2",
+  "shortcuts_assistant_enabled": true,
+  "ctrl_key_color": "Blue",
+  "ctrl_key_sequence": {
+    "$type": "Aurora.Settings.KeySequence, Aurora",
+    "keys": {
+      "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+      "$values": []
+    },
+    "type": 0,
+    "freeform": {
+      "$type": "Aurora.Settings.FreeFormObject, Aurora",
+      "Type": 1,
+      "X": 0.0,
+      "Y": 0.0,
+      "Width": 30.0,
+      "Height": 30.0,
+      "Angle": 0.0
+    }
+  },
+  "alt_key_color": "Yellow",
+  "alt_key_sequence": {
+    "$type": "Aurora.Settings.KeySequence, Aurora",
+    "keys": {
+      "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+      "$values": []
+    },
+    "type": 0,
+    "freeform": {
+      "$type": "Aurora.Settings.FreeFormObject, Aurora",
+      "Type": 1,
+      "X": 0.0,
+      "Y": 0.0,
+      "Width": 30.0,
+      "Height": 30.0,
+      "Angle": 0.0
+    }
+  },
+  "Layers_NightTime": {
+    "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.Layer, Aurora]], System",
+    "$values": []
+  },
+  "lighting_areas_day": {
+    "$type": "System.Collections.Generic.List`1[[Aurora.Settings.ColorZone, Aurora]], mscorlib",
+    "$values": []
+  },
+  "lighting_areas_night": {
+    "$type": "System.Collections.Generic.List`1[[Aurora.Settings.ColorZone, Aurora]], mscorlib",
+    "$values": []
+  },
+  "isEnabled": true,
+  "ScriptSettings": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Aurora.Settings.ScriptSettings, Aurora]], mscorlib"
+  },
+  "Layers": {
+    "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.Layer, Aurora]], System",
+    "$values": [
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Use",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidColorLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.LayerHandlerProperties, Aurora",
+            "_PrimaryColor": "75, 75, 255",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  41
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      },
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Jump",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidColorLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.LayerHandlerProperties, Aurora",
+            "_PrimaryColor": "14, 126, 216",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  94,
+                  76,
+                  79
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      },
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "SecondaryAttack",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidColorLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.LayerHandlerProperties, Aurora",
+            "_PrimaryColor": "75, 178, 32",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  80,
+                  81
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      },
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Reload",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidColorLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.LayerHandlerProperties, Aurora",
+            "_PrimaryColor": "163, 255, 134, 0",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  42
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      },
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Arrows",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidColorLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.LayerHandlerProperties, Aurora",
+            "_PrimaryColor": "100, 0, 80, 255",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  89,
+                  103,
+                  104,
+                  102
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      },
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Utility",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidColorLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.LayerHandlerProperties, Aurora",
+            "_PrimaryColor": "188, 0, 255",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  2,
+                  1,
+                  30,
+                  72,
+                  46,
+                  84,
+                  45,
+                  38
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      },
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Super",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.BreathingLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.BreathingLayerHandlerProperties, Aurora",
+            "_RandomPrimaryColor": false,
+            "_RandomSecondaryColor": false,
+            "_EffectSpeed": 3.0,
+            "_SecondaryColor": "125, 125, 1",
+            "_PrimaryColor": "Yellow",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  63
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      },
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Weapons",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidColorLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.LayerHandlerProperties, Aurora",
+            "_PrimaryColor": "170, 255, 0, 0",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  18,
+                  19,
+                  20,
+                  39
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      },
+      {
+        "$type": "Aurora.Settings.Layers.Layer, Aurora",
+        "Name": "Basic",
+        "Handler": {
+          "$type": "Aurora.Settings.Layers.SolidColorLayerHandler, Aurora",
+          "Properties": {
+            "$type": "Aurora.Settings.Layers.LayerHandlerProperties, Aurora",
+            "_PrimaryColor": "White",
+            "_Sequence": {
+              "$type": "Aurora.Settings.KeySequence, Aurora",
+              "keys": {
+                "$type": "System.Collections.Generic.List`1[[Aurora.Devices.DeviceKeys, Aurora]], mscorlib",
+                "$values": [
+                  40,
+                  60,
+                  61,
+                  62,
+                  97
+                ]
+              },
+              "type": 0,
+              "freeform": {
+                "$type": "Aurora.Settings.FreeFormObject, Aurora",
+                "Type": 1,
+                "X": 0.0,
+                "Y": 0.0,
+                "Width": 30.0,
+                "Height": 30.0,
+                "Angle": 0.0
+              }
+            }
+          }
+        },
+        "Enabled": true,
+        "Type": 0,
+        "Logics": {
+          "$type": "System.Collections.ObjectModel.ObservableCollection`1[[Aurora.Settings.Layers.LogicItem, Aurora]], System",
+          "$values": []
+        },
+        "LogicPass": true
+      }
+    ]
+  },
+  "Hidden": false
+}
